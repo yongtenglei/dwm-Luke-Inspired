@@ -188,7 +188,7 @@ static Key keys[] = {
     // NetwockManager GUI
     {MODKEY | ShiftMask, XK_w, spawn, SHCMD(TERMINAL " -e sudo nmtui")},
     // File Manager
-    {MODKEY, XK_r, spawn, SHCMD(TERMINAL " -e lf")},
+    {MODKEY, XK_o, spawn, SHCMD(TERMINAL " -e lf")},
     {MODKEY | ShiftMask, XK_r, spawn, SHCMD(TERMINAL " -e htop")},
 
     // Layout
