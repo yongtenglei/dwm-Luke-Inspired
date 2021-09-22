@@ -232,10 +232,10 @@ static Key keys[] = {
     {MODKEY, XK_z, incrgaps, {.i = +3}},
     {MODKEY, XK_x, incrgaps, {.i = -3}},
 
-    //{MODKEY, XK_Left, focusmon, {.i = -1}},
-    //{MODKEY | ShiftMask, XK_Left, tagmon, {.i = -1}},
-    //{MODKEY, XK_Right, focusmon, {.i = +1}},
-    //{MODKEY | ShiftMask, XK_Right, tagmon, {.i = +1}},
+    {MODKEY, XK_Left, focusmon, {.i = -1}},
+    {MODKEY | ShiftMask, XK_Left, tagmon, {.i = -1}},
+    {MODKEY, XK_Right, focusmon, {.i = +1}},
+    {MODKEY | ShiftMask, XK_Right, tagmon, {.i = +1}},
 
     {MODKEY, XK_g, shiftview, {.i = -1}},
     {MODKEY | ShiftMask, XK_g, shifttag, {.i = -1}},
